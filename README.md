@@ -6,3 +6,5 @@
 # - Please read the license, the code provided CAN NOT be used to make their own version of the bot with it renamed. The main purpose is to help users understand the inner workings and understand ozzy itself, its limits, what it logs and the package used.
 
 # - Bots found with copied code will result in LEGAL charges.
+
+# - Anyone is free to contribute to this project, and WILL be credited. (Has to be in the support server.)
