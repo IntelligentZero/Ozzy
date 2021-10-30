@@ -1,13 +1,13 @@
 {
   "name": "ozscesrc",
-  "version": "4.0.0-rewrite-test",
-  "description": "Source code of ozzy in ozsecsrc.",
+  "version": "4.0.0",
+  "description": "ozzy v4 and above.",
   "main": "bot.js",
   "dependencies": {
     "discordbot-script": "^3.3.1",
-    "ffmpeg": "^0.0.4",
     "systeminformation": "^5.9.6",
-    "ytdl-core": "^4.9.1"
+    "topgg-autoposter": "^1.1.10",
+    "dblapi.js": "^2.4.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
