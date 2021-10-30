@@ -1,5 +1,3 @@
-const { variables } = require('./utils/vars.js');
-const { status } = require('./utils/status.js');
 const { auth } = require('./secure/info.json');
 const Dlang = require('discordbot-script')
 const bot = new Dlang({
@@ -8,7 +6,7 @@ const bot = new Dlang({
 })
 
 bot.MessageEvent();
-bot.MessageEditEvent()
+bot.MessageEditEvent();
 bot.onBan();
 bot.onUnban();
 bot.onBotJoin();
@@ -16,7 +14,7 @@ bot.onBotLeave();
 bot.onChannelCreate();
 bot.onChannelDelete();
 bot.onEmojiCreate();
-bot.onEmojiDelete(),
+bot.onEmojiDelete();
 bot.onGuildUpdate();
 bot.onJoined();
 bot.onLeave();
@@ -26,9 +24,8 @@ bot.onRoleCreate();
 bot.onRoleDelete();
 bot.onUserUpdate();
 
-variables
-
-status
+require('./utils/status')(bot)
+require('./utils/vars')(bot)
 
 const fs = require('fs');
 const folders = fs.readdirSync("./commands/")
