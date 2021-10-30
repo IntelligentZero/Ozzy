@@ -1,7 +1,5 @@
 console.log(`Variables loaded!`);
-const Dlang = require('discordbot-script')
-const bot = new Dlang({
-})
+module.exports = (bot) => {
 bot.Variables({
 prefix: '++',
 prefix2: '',
@@ -13,5 +11,7 @@ version: '0.0.0',
 channel: '',
 logs: 'disabled',
 role: '',
-autorole: 'false'
+autorole: 'false',
+state: 'Fully Operational'
 })
+}
